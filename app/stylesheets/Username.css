@@ -1,0 +1,77 @@
+#SceneUsername {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #ffffff;
+	background-image : url('../../images/bg.jpg');
+}
+
+#SceneUsername #svecKeyHelp_7BAA{
+	position : absolute;
+	left : 0px;
+	top : 505px;
+}
+#user_name_text{
+
+	position:absolute;
+	left:133px;
+	top:160px;
+	background:url(../../images/textarea.png) no-repeat scroll 0 0 transparent;
+        border:0 none;
+        color:black;
+       /* float:left;*/
+	font-family:Tahoma, Geneva, sans-serif;
+        font-size:14px;
+        padding-left:6px;
+        width:296px;
+        height:49px;
+		z-index:0;
+}
+#login_username{
+    position:absolute;
+	background:url(../../images/bg_dangnhap.png) no-repeat;
+	left:100px;
+	top:100px;
+	width:366px;
+	height:216px;
+}
+
+#login_username p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	opacity:0.45;
+	margin-left: 100px;
+	line-height: 40px;
+}
+
+.login1_username ul{
+	list-style: none outside none;
+}
+
+.login1_username ul li{
+	display: block;
+}
+
+
+.line_dangnhap{
+	margin-left:25px;
+}
+
+#username_dangnhap{
+	margin-left:33px;
+}
+
+#username_ok{
+	margin-top: 20px;
+	margin-left:225px;
+}
+#SceneUsername .imageNormal{
+	opacity:0.6;
+}
+#SceneUsername .imageFocus{
+	opacity:1.0;
+}

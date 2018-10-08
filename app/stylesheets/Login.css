@@ -1,0 +1,297 @@
+#SceneLogin {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #ffffff;
+	background-image : url('../../images/bg.jpg');
+}
+#SceneLogin #svecKeyHelp_XG7W{
+	position : absolute;
+	left : 0px;
+	top : 505px;
+}
+.logo{background:url(../../images/logo.png) no-repeat; width:150px; height:100px; margin-left:50px; position:absolute; top:13px;}
+
+
+#SceneLogin .imageNormal{
+		opacity:0.7;
+}
+#SceneLogin .imageFocus{
+	opacity:0.7;
+	border:1px solid #999;
+	border-radius: 5px;
+}
+
+
+#SceneLogin #loginImageLoading{
+	position : absolute;
+	left : 410px;
+	top : 200px;
+	width:150px;
+	height:140px;
+}
+#SceneLogin #labelUsername{
+	position:absolute;
+	left:120px;
+	top:235px;
+	color:#999;
+	width:200px
+}
+#SceneLogin #lblUsername{
+	position:absolute;
+	left:230px;
+	top:235px;
+	color:white;
+	width:200px;
+}
+#SceneLogin #labelPassword{
+	position:absolute;
+	left:120px;
+	top:305px;
+	width:200px;
+	color:#999;
+}
+#SceneLogin #lblPassword{
+	position:absolute;
+	left:230px;
+	top:305px;
+	width:200px;
+	color:white;
+}
+#SceneLogin #usernameText{
+	position : absolute;
+	left : 221px;
+	top : 223px;
+	width : 298px;
+	height : 42px;
+}
+#SceneLogin #passwordText{
+	position : absolute;
+	left : 221px;
+	top : 290px;
+	width : 298px;
+	height : 42px;
+}
+#SceneLogin #username
+{
+	position:absolute;
+	left:255px;
+	top:230px;
+}
+#SceneLogin #password
+{
+	position:absolute;
+	left:255px;
+	top:290px;
+}
+#SceneLogin #btnLogin{
+	position : absolute;
+	left : 420px;
+	top : 350px;
+	width : 98px;
+	height : 40px;
+}
+
+@charset "utf-8";
+
+
+#wrapper{
+	background-image:url(../images/bg.jpg);
+	width:960px;
+	height:540px;
+}
+
+
+#login{
+	width:453px;
+	height:248px;
+	border-right:solid 1px #CCC;
+	float:left;
+	margin-top:150px;
+	margin-left:90px;
+}
+#login p{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	opacity:0.45;
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:10px;
+}
+
+#login ul {
+	list-style: none outside none;
+}
+
+#login ul li {
+	display: block;
+}
+
+#login ul li span{
+	display:inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	opacity:0.45;
+	font-weight:bold;
+	font-size:15px;
+	text-align:center;
+	width:110px;
+}
+
+#login .username .user{
+	position:relative;
+	top:30px;
+}
+
+#login .password .pass{
+	position:relative;
+	top:30px;
+}
+
+#login img{
+	vertical-align:middle;
+}
+
+#login .username img{
+	margin-left:130px;
+}
+
+#login .password img{
+	margin-left:130px;
+}
+
+#login .button-login img{
+	margin-left:327px;
+	margin-top:20px;
+}
+
+#login .line_login img{
+	margin-left:135px;
+}
+
+#guide{
+	width:300px;
+	height:248px;
+	float:left;
+	margin-top:150px;
+}
+
+#guide h1{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	opacity:0.45;
+	font-weight:bold;
+	font-size:18px;
+	margin-left:62px;
+	margin-bottom:10px;
+}
+
+#guide .line_guide img{
+	margin-top:10px;
+	margin-left:30px;
+}
+
+#guide ul {
+	list-style: none outside none;
+}
+
+#guide ul li {
+	display: block;
+}
+
+#guide .bg_guide img{
+	margin-left:30px;
+	margin-top:24px;
+}
+
+
+/* END */
+
+/* FILM_ITEM */
+.bottom .media{
+	background:url(../images/media.png) no-repeat;
+	width:538px;
+	height:322px;
+	margin-left: 50px;
+	margin-top:100px;
+	float:left;
+}
+
+.bottom .description{
+	background:url(../images/description.png) no-repeat;
+	width:302px;
+	height:322px;
+	float:left;
+	position:absolute;
+	margin-left:608px;
+	margin-top:100px;
+}
+
+
+#SceneLogin #loginLoadingImage{
+	position : absolute;
+	left : 410px;
+	top : 200px;
+	width : 150px;
+	height : 140px;
+}
+
+.top-account{
+	margin-left:200px;
+	margin-top:10px;
+	/*position:absolute;*/
+	/*left: -72px;*/
+	/*top: 13px;*/
+	
+	/*width:410px;*/
+	height:26px;
+}
+.top-account ul li p{
+    top:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:white;
+	letter-spacing:1px;
+	
+	/*display:inline-block;*/
+}
+.top-account ul li p em{
+	color:red;
+	
+}
+.top .money{
+}
+
+.bg_guide1{background:url(../../images/bg_guide.png) no-repeat;
+ width:258px;
+ height:154px;
+ margin-left:30px;
+ margin-top:24px;
+ opacity:0.9;
+}
+.text{
+ margin-left:10px;
+ }
+
+.text p {
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:14px;
+ margin-left:8px;
+ line-height:21px;
+ color:#ffffff;
+}
+
+
+.text p em{
+ color:#FF0000;
+ font-weight:bold;
+ margin-left:30px;
+}
+
+
+

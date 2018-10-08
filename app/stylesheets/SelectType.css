@@ -1,0 +1,31 @@
+#SceneSelectType {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : transparent;
+	opacity:0.6;
+}
+
+#SceneSelectType #btnHD{
+	position : absolute;
+	left : 310px;
+	top : 170px;
+	width : 210px;
+}
+
+#SceneSelectType #btnSuperHD{
+	position : absolute;
+	left : 310px;
+	top : 220px;
+	width : 210px;
+}
+
+#SceneSelectType #btnCancel{
+	position : absolute;
+	left : 310px;
+	top : 270px;
+	width : 210px;
+}
+

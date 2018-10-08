@@ -1,0 +1,64 @@
+<!-- this html will be a contents of div ScenePlayer -->
+<div id="wrapper_player">
+	<div class="logo" id="logoId">
+	</div>
+	 <div class="top-account" id="top_account">
+         <ul>
+             <li class="username">
+                 <p>Xin ch&#224;o : <em id="player_user_name_login"></em></p>
+             </li>
+             <li class="money">
+                 <p>&nbsp T&#224;i kho&#7843;n :  <em id="player_user_name_money"></em></p>
+             </li>
+             <li class="exp">
+                 <p>&nbsp Th&#7901;i h&#7841;n : <em id="player_user_name_expire_date"></em></p>
+             </li>
+         </ul>
+     </div><!--top-account-->
+     <div class="bottom">
+         <div id="desc_id">
+			<div id="desc_text"></div>
+       </div><!--description-->
+	 <div><!--bottom-->
+</div>
+<div id='svecKeyHelp_XX0C'></div><div id='svecPopup_7PLN'></div>
+<div id='player_popup_error'></div>
+<div id="playerFailPopup"></div>
+<div id="playerSelectTypePopup"></div>
+<div id="bufferText"></div>
+
+<div class="srt" id="substr" style="z-index:100;"></div>
+<div class="normal_mode_srt" id="normal_mode_substr" style="z-index:100;"></div>
+
+<!--<object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER" style="position:absolute;z-index:99;left:48px;top:98px;width:542;height: 338px"></object>-->
+<object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER" style="position:absolute;z-index:99;left:50px;top:98px;width:538;height: 338px"></object>
+<object id="pluginTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW"></object>
+<object id="pluginAudio" classid="clsid:SAMSUNG-INFOLINK-AUDIO" style="border:none; width:0px;height:0px;"></object>
+
+
+<!-- player stop pause play-->
+<img src="images/media/bg_media.png" id="bg_media" />
+<img src="images/media/play.png" id="play"/>
+<img src="images/media/stop.png" id="stop" />
+<!--<img src="images/media/buffer.png" id="buffer" />-->
+<div id="buffer"><p class="player_film_name_class"><em id="player_film_name"></em></p></div>
+<div id="time">0:00:00/0:00:00</div>
+<div id='svecLoadingImage_96LK'></div><div id='svecLoadingImage_BY9U'></div>
+
+<div id='playerLoadingImage'></div>
+
+<!--for debugging-->
+<div class="srt" id="substr"
+     data-video="PluginSef"
+     data-srt="http://v2v.cc/~j/jquery.srt/sample.srt" /></div>
+	 
+<img id='imgMute'></img>
+<div id='lblVol'></div>
+
+<img src="images/media/bf.jpg" id="bf_btn"/>
+<img src="images/media/play.png" id="full_mode_play"/>
+<img src="images/media/stop.png" id="full_mode_stop" />
+<img src="images/media/ff.jpg" id="ff_btn" />
+<div id='durationBackground'></div>
+<div id='durationBar'></div>
+<div id="full_mode_time">0:00:00/0:00:00</div>

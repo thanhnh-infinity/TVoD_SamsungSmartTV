@@ -1,0 +1,5 @@
+{
+	"scenes" : [ "Login", "Home", "Category", "LiveCategory", "Player", "Username", "Password", "Topup", "SelectType"],
+	"files" : [],
+	"theme" : "base"
+}

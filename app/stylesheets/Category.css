@@ -1,0 +1,441 @@
+#SceneCategory {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #ffffff;
+	background-image : url('../../images/bg.jpg');
+}
+
+#SceneCategory #svecKeyHelp_491N{
+	position : absolute;
+	left : 0px;
+	top : 505px;
+}
+
+#SceneCategory #svecLabel_48N9{
+	position : absolute;
+	font-size : 10pt;
+	color : #210000;
+	left : 40px;
+	top : 80px;
+	width : 130px;
+}
+
+
+#SceneCategory #btnNewest{
+	position : absolute;
+	left : 210px;
+	top : 100px;
+	width : 150px;
+}
+#SceneCategory #btnNewestText{
+	position : absolute;
+	left : 214px;
+	top : 106px;
+	width : 142px;
+	color:white;
+}
+#SceneCategory #btnMostView{
+	position : absolute;
+	left : 365px;
+	top : 100px;
+	width : 150px;
+}
+#SceneCategory #btnMostViewText{
+	position : absolute;
+	left : 369px;
+	top : 106px;
+	width : 142px;
+	color:white;
+}
+#SceneCategory #btnFavorite{
+	position : absolute;
+	left : 520px;
+	top : 100px;
+	width : 150px;
+}
+#SceneCategory #btnFavoriteText{
+	position : absolute;
+	left : 524px;
+	top : 106px;
+	width : 142px;
+	color:white;
+}
+#SceneCategory #btnRandom{
+	position : absolute;
+	left : 675px;
+	top : 100px;
+	width : 150px;
+}
+#SceneCategory #btnRandomText{
+	position : absolute;
+	left : 679px;
+	top : 104px;
+	width : 142px;
+	color:white;
+}
+
+#SceneCategory #img1{
+	position : absolute;
+	left : 220px;
+	top : 150px;
+	width : 160px;
+	height : 90px;
+}
+
+
+#SceneCategory #img2{
+	position : absolute;
+	left : 390px;
+	top : 150px;
+	width : 160px;
+	height : 90px;
+}
+
+
+#SceneCategory #img3{
+	position : absolute;
+	left : 560px;
+	top : 150px;
+	width : 160px;
+	height : 90px;
+}
+
+
+#SceneCategory #img4{
+	position : absolute;
+	left : 730px;
+	top : 150px;
+	width : 160px;
+	height : 90px;
+}
+
+
+#SceneCategory #img5{
+	position : absolute;
+	left : 220px;
+	top : 280px;
+	width : 160px;
+	height : 90px;
+}
+
+#SceneCategory #img6{
+	position : absolute;
+	left : 390px;
+	top : 280px;
+	width : 160px;
+	height : 90px;
+}
+
+
+#SceneCategory #img7{
+	position : absolute;
+	left : 560px;
+	top : 280px;
+	width : 160px;
+	height : 90px;
+}
+
+
+#SceneCategory #img8{
+	position : absolute;
+	left : 730px;
+	top : 280px;
+	width : 160px;
+	height : 90px;
+}
+
+#SceneCategory #lblFilmName1{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 220px;
+	top : 244px;
+	text-align:center;
+	width : 160px;
+}
+
+#SceneCategory #lblFilmName2{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 390px;
+	top : 244px;
+	text-align:center;
+	width : 160px;
+}
+
+#SceneCategory #lblFilmName3{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 560px;
+	top : 244px;
+	text-align:center;
+	width : 160px;
+}
+
+#SceneCategory #lblFilmName4{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 730px;
+	top : 244px;
+	text-align:center;
+	width : 160px;
+}
+
+#SceneCategory #lblFilmName5{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 220px;
+	top : 374px;
+	text-align:center;
+	width : 160px;
+}
+
+#SceneCategory #lblFilmName6{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 390px;
+	top : 374px;
+	text-align:center;
+	width : 160px;
+}
+
+#SceneCategory #lblFilmName7{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 560px;
+	top : 374px;
+	text-align:center;
+	width : 160px;
+}
+
+#SceneCategory #lblFilmName8{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 730px;
+	top : 374px;
+	text-align:center;
+	width : 160px;
+}
+/*
+*/
+#description{
+	position : absolute;
+	left : 390px;
+	top : 410px;
+	width : 500px;
+	height : 90px;
+	color:white;
+	padding:5px;
+}
+#description_text
+{
+	padding:5px;
+}
+
+#SceneCategory #lblVideoTitle{
+	position : absolute;
+	font-size : 10pt;
+	color : #210000;
+	left : 230px;
+	top : 460px;
+	width : 130px;
+}
+
+#SceneCategory #lblPaging{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 860px;
+	top : 135px;
+	width : 70px;
+}
+
+
+/*
+#SceneCategory .left{
+	width:0px;
+}
+#SceneCategory .right{
+	width:0px;
+}
+#SceneCategory .center{
+	background: url("../../images/button_bottom_active.png") no-repeat;
+    height: 50px;
+    width: 150px;
+}
+*/
+/*sfList */
+
+
+#SceneCategory .sf-ui-list-itemarea .focused .center
+{
+	background: url("../../images/button_bottom.png") no-repeat;
+	/*background-color:#4A4A4A;*/
+    height: 50px;
+    width: 150px;
+	text-align:center;
+}
+
+#SceneCategory .sf-ui-list-item .left{
+	width:0px;
+}
+#SceneCategory .sf-ui-list-item .right{
+	width:0px;
+}
+
+#SceneCategory .sf-ui-list-item .center
+{
+	background: url(../../images/button_bottom_active.png) no-repeat;
+	/*background-color:#818181;*/
+    height: 50px;
+    width: 150px;
+	text-align:center;
+}
+
+#SceneCategory .sf-ui-list-focus .left
+{
+	width:0px;
+}
+#SceneCategory .sf-ui-list-focus .right
+{
+	width:0px;
+}
+
+#SceneCategory .sf-ui-list-focus .center
+{
+	background: url("../../images/button_bottom.png") no-repeat;
+	height:50px;
+	width:150px;
+	text-align:center;
+}
+
+#SceneCategory #categoryLoadingImage{
+	position : absolute;
+	left : 520px;
+	top : 240px;
+}
+
+#SceneCategory #imgDescription{
+	position : absolute;
+	left : 220px;
+	top : 410px;
+	width : 160px;
+	height : 90px;
+}
+
+/*sfBUtton*/
+#SceneCategory .sf-ui-button-l {width:0px;}
+#SceneCategory .sf-ui-button-c {
+	background:url(../../images/mostview.png) no-repeat;
+	width:150px;
+	height:30px;
+}
+#SceneCategory .sf-ui-button-r {width:0px;}
+
+#SceneCategory .sf-ui-button-focus .sf-ui-button-l.focus {width:0px;}
+#SceneCategory .sf-ui-button-focus .sf-ui-button-c.focus {
+	background:url(../../images/mostview_active.png) no-repeat;
+	width:150px;
+	height:30px;
+	color:red;
+}
+#SceneCategory .sf-ui-button-focus .sf-ui-button-r.focus {width:0px;} 
+/*End sfButton*/
+
+
+#SceneCategory .imgBlur{
+	opacity:0.8;
+	/*
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px; 
+	*/
+}
+#SceneCategory .imgFocus{
+	opacity:1.0;
+	border:2px solid yellow;
+	
+	/*
+	-webkit-box-shadow: 0px 0px 30px rgba(0, 0, 255, 1);
+-moz-box-shadow:    0px 0px 30px rgba(0, 0, 255, 1);
+box-shadow:         0px 0px 30px rgba(0, 0, 255, 1);	
+*/
+/*
+background: -webkit-box-shadow: 0px 1px 28px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    0px 1px 28px rgba(255, 255, 255, 1);
+	box-shadow:         0px 1px 28px rgba(255, 255, 255, 1);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px; 
+	*/
+}
+#SceneCategory .centerBackground{
+	position:absolute;
+	top:130px;
+	left:210px;
+	width:700px;
+	background:url(../../images/bg_film_full.png) no-repeat;
+	height:270px;
+}
+
+
+#SceneCategory #listCategory{
+	position : absolute;
+	left : 48px;
+	top : 130px;
+	width : 150px;
+}
+
+#SceneCategory #listCategoryMusic{
+	position : absolute;
+	left : 48px;
+	top : 130px;
+	width : 150px;
+}
+#SceneCategory #listCategoryClip{
+	position : absolute;
+	left : 48px;
+	top : 130px;
+	width : 150px;
+}
+#SceneCategory #listCategoryTV{
+	position : absolute;
+	left : 48px;
+	top : 130px;
+	width : 150px;
+}
+
+#SceneCategory #imgUp{
+	position : absolute;
+	left : 48px;
+	top : 100px;
+	width : 150px;
+	height : 30px;
+}
+
+#SceneCategory #imgDown{
+	position : absolute;
+	left : 48px;
+	top : 480px;
+	width : 150px;
+	height : 30px;
+}
+
+#SceneCategory .bottom{
+	position:absolute;
+	left:210px;
+	top:406px;
+	width:700px;
+	height:98px;
+	background:url(../../images/bg_film_full.png) no-repeat;
+}

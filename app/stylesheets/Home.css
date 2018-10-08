@@ -1,0 +1,212 @@
+#SceneHome {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 960px;
+	height : 540px;
+	background-color : #ffffff;
+	background-image : url('../../images/bg.jpg');
+}
+
+#SceneHome #svecKeyHelp_CRBB{
+	position : absolute;
+	left : 0px;
+	top : 505px;
+}
+
+
+#SceneHome #svecLabel_4SZ6{
+	position : absolute;
+	font-size : 10pt;
+	color : #000000;
+	left : 450px;
+	top : 0px;
+	width : 60px;
+}
+
+#SceneHome #lblUserName{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 510px;
+	top : 0px;
+	width : 90px;
+}
+
+#SceneHome #svecLabel_9IWE{
+	position : absolute;
+	font-size : 10pt;
+	color : #000000;
+	left : 610px;
+	top : 0px;
+	width : 60px;
+}
+
+#SceneHome #lblBalance{
+	position : absolute;
+	font-size : 10pt;
+	color : white;
+	left : 670px;
+	top : 0px;
+	width : 110px;
+}
+
+#SceneHome #svecLabel_9RSB{
+	position : absolute;
+	font-size : 10pt;
+	color : #000000;
+	left : 790px;
+	top : 0px;
+	width : 70px;
+}
+
+#SceneHome #lblExpireDate{
+	position : absolute;
+	font-size : 10pt;
+	color : #000000;
+	left : 860px;
+	top : 0px;
+	width : 90px;
+}
+
+#SceneHome #loadingImage{
+	position : absolute;
+	left : 410px;
+	top : 180px;
+}
+#SceneHome #lblMovieTitle{
+	position : absolute;
+	left : 40px;
+	top : 360px;
+	width : 200px;
+	height : 40px;
+	color:white;
+	text-align:center;;
+}
+
+#SceneHome #imgMovie{
+	position : absolute;
+	left : 40px;
+	top : 190px;
+	width : 200px;
+	height : 167px;
+	background:url(../../images/btnMovie.png) transparent;
+	border:0px;	
+}
+
+/* Music*/
+#SceneHome #lblMusicTitle{
+	position : absolute;
+	left : 260px;
+	top : 360px;
+	width : 200px;
+	height : 40px;
+	color:white;
+	text-align:center;
+}
+#SceneHome #imgMusic{
+	position : absolute;
+	left : 260px;
+	top : 190px;
+	width : 200px;
+	height : 167px;
+	background:url(../../images/btnMusic.png);
+}
+/*Sport*/
+#SceneHome #lblSportTitle{
+	position : absolute;
+	left : 480px;
+	top : 360px;
+	width : 200px;
+	height : 40px;
+	color:white;
+	text-align:center;
+}
+#SceneHome #imgSport{
+	position : absolute;
+	left : 480px;
+	top : 190px;
+	width : 200px;
+	height : 167px;
+	background:url(../../images/btnSport.png);
+}
+/*TV*/
+#SceneHome #lblTVTitle{
+	position : absolute;
+	left : 700px;
+	top : 360px;
+	width : 200px;
+	height : 40px;
+	color:white;
+	text-align:center;
+}
+#SceneHome #imgTV{
+	position : absolute;
+	left : 700px;
+	top : 190px;
+	width : 200px;
+	height : 167px;
+	background:url(../../images/btnTV.png);
+}
+#SceneHome .imgFocus{
+	opacity:1.0;	
+
+
+	
+	background: -webkit-box-shadow: 0px 1px 28px rgba(255, 255, 255, 1);
+	-moz-box-shadow:    0px 1px 28px rgba(255, 255, 255, 1);
+	box-shadow:         0px 1px 28px rgba(255, 255, 255, 1);	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px; 
+	
+/*
+	background:url(../../images/active.png);	
+	*/
+}
+.shadow1{}
+.shadow2{}
+.shadow3{}
+#SceneHome .imgBlur{
+	opacity:0.8;
+	color:#ffffff;
+}
+
+
+.active_movie{
+	position:absolute;
+	top: 205px;
+	left: 15px;
+	opacity:0.9;
+	background:url(../../images/active.png);
+	width:282px;
+	height:185px;
+}
+.active_music{
+	position:absolute;
+	top: 205px;
+	left: 235px;
+	opacity:0.9;
+	background:url(../../images/active.png);
+	width:282px;
+	height:185px;
+}
+.active_sport{
+	position:absolute;
+	top: 205px;
+	left: 455px;
+	opacity:0.9;
+	background:url(../../images/active.png);
+	width:282px;
+	height:185px;
+	z-index:0;
+}
+.active_tv{
+	position:absolute;
+	top: 205px;
+	left: 675px;
+	opacity:0.9;
+	background:url(../../images/active.png);
+	width:282px;
+	height:185px;
+}
